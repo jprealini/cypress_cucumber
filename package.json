@@ -1,0 +1,19 @@
+{
+  "name": "cyp_cucumber",
+  "version": "1.0.0",
+  "description": "cypress + cucumber",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "author": "Juan Pablo Realini",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "commonPath": "common",
+    "stepDefinitions": "cypress/integration/step_definitions"
+  },
+  "devDependencies": {
+    "cypress": "^4.0.0",
+    "cypress-cucumber-preprocessor": "^2.0.1"
+  }
+}

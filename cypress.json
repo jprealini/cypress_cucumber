@@ -1,0 +1,12 @@
+{
+    "ignoreTestFile": "*.js",
+    "fixturesFolder": "cypress/fixtures",
+    "integrationFolder": "cypress/integration",
+    "pluginsFolder": "cypress/plugins",
+    "screenshotsFolder": "cypress/screenshots",
+    "testFiles": "**/*.feature",
+    "videosFolder": "cypress/videos",
+    "supportFile": false,
+    "viewportWidth": 1920,
+    "viewportHeight": 1080
+}
