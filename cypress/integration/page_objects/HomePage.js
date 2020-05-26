@@ -1,5 +1,4 @@
-class HomePage {
-  
+class HomePage {  
   visit(url) {
     cy.visit(url);
   }
